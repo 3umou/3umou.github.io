@@ -2,12 +2,20 @@
 <html>
 <head>
     <title>Example Domain</title>
+    <script>
+    document.getElementById('myButton').onclick = myFunction;
+
+        function myFunction() {
+          alert('Вы нажали на кнопку!');
+        }
+        
+    </script>
 <head>
 </head>
 
 <body>
     <h1>Example Domain</h1>
     <h6>NEW</h6>
-    <button type="button">Нажмите меня!</button>
+    <button onclick="myFunction()">Нажми меня</button>
 </body>
 </html>
