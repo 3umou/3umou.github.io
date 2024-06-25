@@ -7,6 +7,7 @@
 
         function myFunction() {
           alert('Вы нажали на кнопку!');
+          document.getElementById("id-of-element").innerHTML = "new text";
         }
         
     </script>
@@ -16,6 +17,7 @@
 <body>
     <h1>Example Domain</h1>
     <h6>NEW</h6>
+    <p id="id-of-element">old text</p>
     <button onclick="myFunction()">Нажми меня</button>
 </body>
 </html>
